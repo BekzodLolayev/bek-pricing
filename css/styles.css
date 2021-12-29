@@ -40,6 +40,8 @@ button {
   font-weight: bold;
   font-size: 13px;
   line-height: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* CONTAINER */
@@ -166,7 +168,7 @@ input:checked + .slider:before {
   border-bottom: 1px solid #6E728E;
 }
 .main-container-theme h1 {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif, Arial;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -197,6 +199,63 @@ input:checked + .slider:before {
   box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
   border-radius: 10px;
   padding: 55px 31px;
+}
+.main-container-center-top {
+  font-family: Montserrat, sans-serif, Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.main-container-center-theme {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #fff;
+}
+.main-container-center h1 {
+  font-family: Montserrat, sans-serif, Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 71px;
+  letter-spacing: -2.16px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.main-container-center-theme-dollor {
+  display: flex;
+  align-items: center;
+  font-family:  Montserrat, sans-serif, Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #fff;
+  margin-right: 8px;
+}
+.main-center-text-container {
+  margin-bottom: 32px;
+}
+.main-container-center-text {
+  font-family:  Montserrat, sans-serif, Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #fff;
 }
 .main-text-container {
   margin-bottom: 32px;
